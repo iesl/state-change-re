@@ -14,7 +14,7 @@ You can run:
 
 `conda activate myenv`
 
-`conda install --file requirements.txt`
+`conda install --file ./requirements.txt`
 
 `python ./get_original.py <path_to_gigaword_unzipped_directory> <path_where_you_want_to_save_the_data>`
 
