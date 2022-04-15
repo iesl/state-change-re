@@ -10,6 +10,9 @@ You can run the `./get_original.py ` to get the actual sentences, tokens and sub
 
 You can run:
 
+`conda create --name myenv`
+`conda activate myenv`
+`conda install --file requirements.txt`
 `python ./get_original.py <path_to_gigaword_unzipped_directory> <path_where_you_want_to_save_the_data>`
 
 
