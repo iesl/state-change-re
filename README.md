@@ -16,7 +16,7 @@ You can run:
 
 `conda install pip`
 
-`pip install --r ./requirements.txt`
+`pip install -r ./requirements.txt`
 
 `conda install -c conda-forge spacy`
 
