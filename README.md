@@ -10,13 +10,19 @@ You can run the `./get_original.py ` to get the actual sentences, tokens and sub
 
 You can run:
 
-`conda create --name myenv`
+`conda create --name myenv python=3.9.12`
 
 `conda activate myenv`
 
 `conda install pip`
 
 `pip install --r ./requirements.txt`
+
+`conda install -c conda-forge spacy`
+
+`conda install -c conda-forge cupy`
+
+`python -m spacy download en_core_web_trf`
 
 `python ./get_original.py <path_to_gigaword_unzipped_directory> <path_where_you_want_to_save_the_data>`
 
